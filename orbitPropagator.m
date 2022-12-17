@@ -6,7 +6,7 @@ classdef orbitPropagator < handle
         x_0     double
         y_0     double
         r_e     double = 6378144 % Default to radius of the earth in meters
-        g       double = 9.8 % Default to meters. Gravity on earth.
+        g       double = 9.8     % Default to meters. Gravity on earth.
         u_0     double = 8100
         v_0     double
         delta_t double
